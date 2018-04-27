@@ -1,0 +1,880 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.4.8167/W32 for ARM                 24/Jun/2017  11:28:06
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\List\vcan_Kinetis.map
+#    Command line =  
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\8700_2100.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\Car_Control.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\diskio.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\ff.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\fuzzy.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\get_midline.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\Key.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\main.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\misc.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_adc.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_can.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_conf.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_dac.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_dma.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_DWT.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_flash.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_flexbus.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_ftm.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_gpio.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_i2c.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_it.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_lptmr.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_mcg.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_PIT.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_port.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_rtc.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_sdhc.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_spi.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_SysTick.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_uart.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_usb.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\MK60_wdog.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\Serial_oscilloscope.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\startup_MK60DZ10.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\system_MK60DZ10.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\USB.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\USB_CDC.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_ASCII.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_BMP.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_camera.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_computer.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\vcan_img2sd.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_key.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_key_event.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LCD.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LCD_CH.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LCD_ILI9341.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LCD_ST7735R.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LCD_ST7735S.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_LED.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_MMA7455.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_NRF24L0.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_NRF24L0_MSG.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_OV7725_Eagle.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_OV7725_Wolf.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_RTC_count.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_SCCB.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\vcan_sd_app.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\Vcan_touch.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_TSL1401.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\VCAN_UI_VAR.o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Exe\vcan_Kinetis.out
+#        --map
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\List\vcan_Kinetis.map
+#        --config
+#        "F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\config
+#        files\vcan_ROM_K60N512.icf"
+#        F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        --entry __iar_program_start --redirect __write=__write_buffered
+#        --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00080000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A2":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418     0x8
+
+"P1":                                       0x8bb8
+  .text                ro code  0x00000418  0x1dd0  get_midline.o [1]
+  .text                ro code  0x000021e8    0x32  I32ToFlt.o [4]
+  .text                ro code  0x0000221a    0x22  zero_init3.o [5]
+  .text                ro code  0x0000223c    0xd8  FltMul.o [4]
+  .text                ro code  0x00002314    0xe6  FltSub.o [4]
+  .text                ro code  0x000023fc    0x84  FltAdd.o [4]
+  .text                ro code  0x00002480    0x44  FltToS32.o [4]
+  .text                ro code  0x000024c4    0xfc  FltDiv.o [4]
+  .text                ro code  0x000025c0    0x4e  FltToDbl.o [4]
+  .text                ro code  0x00002610    0x1c  I32ToDbl.o [4]
+  .text                ro code  0x0000262c    0xe8  DblAdd.o [4]
+  .text                ro code  0x00002714    0x90  DblToFlt.o [4]
+  .text                ro code  0x000027a4   0x1a2  DblMul.o [4]
+  .text                ro code  0x00002948   0x180  DblSub.o [4]
+  .data_init                    0x00002ac8  0x1bac  <Block>
+    Initializer bytes  const    0x00002ac8  0x1bac  <for .data-1>
+  .text                ro code  0x00004674  0x13b0  Key.o [1]
+  .text                ro code  0x00005a24    0x60  MK60_gpio.o [1]
+  .text                ro code  0x00005a84    0x74  MK60_port.o [1]
+  .text                ro code  0x00005af8   0xb50  VCAN_LCD.o [1]
+  .text                ro code  0x00006648   0x160  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x000067a8    0x7a  VCAN_camera.o [1]
+  .text                ro code  0x00006824   0x9a4  Car_Control.o [1]
+  .text                ro code  0x000071c8     0x6  ABImemclr.o [5]
+  .text                ro code  0x000071d0   0x434  VCAN_SCCB.o [1]
+  .text                ro code  0x00007604    0x34  MK60_SysTick.o [1]
+  .text                ro code  0x00007638    0xec  MK60_dma.o [1]
+  .text                ro code  0x00007724    0xce  8700_2100.o [1]
+  .text                ro code  0x000077f4    0x4c  DblToI32.o [4]
+  .text                ro code  0x00007840    0x80  Serial_oscilloscope.o [1]
+  .text                ro code  0x000078c0    0x2e  DblCmpGe.o [4]
+  .text                ro code  0x000078f0    0x2e  DblCmpLe.o [4]
+  .text                ro code  0x00007920   0x246  DblDiv.o [4]
+  .text                ro code  0x00007b68    0xf6  asin.o [4]
+  .text                ro code  0x00007c60   0x220  MK60_ftm.o [1]
+  .text                ro code  0x00007e80    0x24  FltCmpLe.o [4]
+  .text                ro code  0x00007ea4    0x24  FltCmpGe.o [4]
+  .text                ro code  0x00007ec8    0x24  FltToU32.o [4]
+  .text                ro code  0x00007eec    0x1c  FltCmpEq.o [4]
+  .text                ro code  0x00007f08    0xe8  fuzzy.o [1]
+  .text                ro code  0x00007ff0    0x5e  ABImemset.o [5]
+  .text                ro code  0x00008050   0x2b0  MK60_i2c.o [1]
+  .text                ro code  0x00008300   0x168  MK60_uart.o [1]
+  .text                ro code  0x00008468    0xf0  sqrt.o [4]
+  .text                ro code  0x00008558     0x4  MK60_conf.o [1]
+  .text                ro code  0x00008560   0x1e0  xatan.o [4]
+  .text                ro code  0x00008740     0xc  errno.o [3]
+  .text                ro code  0x0000874c    0x76  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x000087c4     0xc  iarEdom.o [5]
+  .text                ro code  0x000087d0     0x2  xtls.o [3]
+  .text                ro code  0x000087d4   0x428  main.o [1]
+  .text                ro code  0x00008bfc    0x18  misc.o [1]
+  .text                ro code  0x00008c14    0x3c  MK60_PIT.o [1]
+  Veneer               ro code  0x00008c50     0x8  - Linker created -
+  .text                ro code  0x00008c58   0x1c4  MK60_mcg.o [1]
+  .text                ro code  0x00008e1c    0xcc  system_MK60DZ10.o [1]
+  .text                ro code  0x00008ee8    0x2c  MK60_wdog.o [1]
+  CodeRelocate                  0x00008f14    0x3c  <Block>
+    Initializer bytes  const    0x00008f14    0x3c  <for CodeRelocateRam-1>
+  .text                ro code  0x00008f50    0x28  data_init.o [5]
+  .iar.init_table      const    0x00008f78    0x10  - Linker created -
+  .text                ro code  0x00008f88    0x1a  cmain.o [5]
+  .text                ro code  0x00008fa2     0x4  exit.o [3]
+  .text                ro code  0x00008fa8     0xa  cexit.o [5]
+  .text                ro code  0x00008fb4     0xc  XXexit.o [5]
+  .text                ro code  0x00008fc0     0xc  cstartup_M.o [5]
+  .rodata              const    0x00008fcc     0x0  zero_init3.o [5]
+  Initializer bytes    const    0x00008fcc     0x4  <for P2 s0>
+                              - 0x00008fd0  0x8bb8
+
+"P2":                                       0x2538
+  .data                         0x1fff0410  0x1bac  <Block>
+    .data-1                     0x1fff0410  0x1ba9  <Init block>
+      .data            inited   0x1fff0410    0x84  Car_Control.o [1]
+      .data            inited   0x1fff0498    0x64  Car_Control.o [1]
+      .data            inited   0x1fff04fc    0x84  Car_Control.o [1]
+      .data            inited   0x1fff0580     0x4  Car_Control.o [1]
+      .data            inited   0x1fff0584     0x4  Car_Control.o [1]
+      .data            inited   0x1fff0588     0x4  Car_Control.o [1]
+      .data            inited   0x1fff058c   0x30c  get_midline.o [1]
+      .data            inited   0x1fff0898    0x58  get_midline.o [1]
+      .data            inited   0x1fff08f0    0xf0  get_midline.o [1]
+      .data            inited   0x1fff09e0    0xf0  get_midline.o [1]
+      .data            inited   0x1fff0ad0    0xf0  get_midline.o [1]
+      .data            inited   0x1fff0bc0     0xc  Key.o [1]
+      .data            inited   0x1fff0bcc     0x4  Key.o [1]
+      .data            inited   0x1fff0bd0  0x12d4  main.o [1]
+      .data            inited   0x1fff1ea4    0x18  MK60_ftm.o [1]
+      .data            inited   0x1fff1ebc    0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff1ed0     0x8  MK60_i2c.o [1]
+      .data            inited   0x1fff1ed8    0x44  MK60_mcg.o [1]
+      .data            inited   0x1fff1f1c     0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff1f20    0x14  MK60_port.o [1]
+      .data            inited   0x1fff1f34    0x18  MK60_uart.o [1]
+      .data            inited   0x1fff1f4c     0x8  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff1f54    0x65  VCAN_OV7725_Eagle.o [1]
+  CodeRelocateRam               0x1fff1fbc    0x3c  <Block>
+    CodeRelocateRam-1           0x1fff1fbc    0x3c  <Init block>
+      .textrw          inited   0x1fff1fbc    0x3c  MK60_mcg.o [1]
+  .bss                          0x1fff1ff8   0x94c  <Block>
+    .bss               zero     0x1fff1ff8     0x4  Car_Control.o [1]
+    .bss               zero     0x1fff1ffc     0x8  Car_Control.o [1]
+    .bss               zero     0x1fff2004    0x10  fuzzy.o [1]
+    .bss               zero     0x1fff2014    0x80  get_midline.o [1]
+    .bss               zero     0x1fff2094   0x1e0  get_midline.o [1]
+    .bss               zero     0x1fff2274    0xf0  get_midline.o [1]
+    .bss               zero     0x1fff2364    0xf0  get_midline.o [1]
+    .bss               zero     0x1fff2454   0x258  main.o [1]
+    .bss               zero     0x1fff26ac   0x258  main.o [1]
+    .bss               zero     0x1fff2904     0x4  main.o [1]
+    .bss               zero     0x1fff2908     0x4  main.o [1]
+    .bss               zero     0x1fff290c     0x8  main.o [1]
+    .bss               zero     0x1fff2914     0x8  main.o [1]
+    .bss               zero     0x1fff291c    0x10  main.o [1]
+    .bss               zero     0x1fff292c     0x4  main.o [1]
+    .bss               zero     0x1fff2930     0x4  main.o [1]
+    .bss               zero     0x1fff2934     0xc  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff2940     0x2  get_midline.o [1]
+    .bss               zero     0x1fff2942     0x2  main.o [1]
+  P2 s0                         0x1fff2944     0x4  <Init block>
+    __DLIB_PERTHREAD   inited   0x1fff2944     0x4  errno.o [3]
+                              - 0x1fff2948  0x2538
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x94c:
+          0x1fff1ff8  0x94c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj: [1]
+    8700_2100.o                206
+    Car_Control.o            2 468               380      388
+    Key.o                    5 040                16       16
+    MK60_PIT.o                  60
+    MK60_SysTick.o              52
+    MK60_conf.o                  4
+    MK60_dma.o                 236
+    MK60_ftm.o                 544                24       24
+    MK60_gpio.o                 96                20       20
+    MK60_i2c.o                 688                 8        8
+    MK60_mcg.o                 452       60      132       72
+    MK60_port.o                116                20       20
+    MK60_uart.o                360                24       24
+    MK60_wdog.o                 44
+    Serial_oscilloscope.o      128
+    VCAN_LCD.o               2 896
+    VCAN_OV7725_Eagle.o        352               109      109
+    VCAN_SCCB.o              1 076
+    VCAN_camera.o              122
+    fuzzy.o                    232                         16
+    get_midline.o            7 632             1 588    2 678
+    main.o                   1 064             4 820    6 070
+    misc.o                      24
+    startup_MK60DZ10.o           8
+    system_MK60DZ10.o          204                         12
+    vectors.o                                  1 040
+    ---------------------------------------------------------
+    Total:                  24 104       60    8 181    9 457
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    errno.o                     12                 4        4
+    exit.o                       4
+    xtls.o                       2
+    ---------------------------------------------------------
+    Total:                      18                 4        4
+
+m7M_tl.a: [4]
+    DblAdd.o                   232
+    DblCmpGe.o                  46
+    DblCmpLe.o                  46
+    DblDiv.o                   582
+    DblMul.o                   418
+    DblSub.o                   384
+    DblToFlt.o                 144
+    DblToI32.o                  76
+    FltAdd.o                   132
+    FltCmpEq.o                  28
+    FltCmpGe.o                  36
+    FltCmpLe.o                  36
+    FltDiv.o                   252
+    FltMul.o                   216
+    FltSub.o                   230
+    FltToDbl.o                  78
+    FltToS32.o                  68
+    FltToU32.o                  36
+    I32ToDbl.o                  28
+    I32ToFlt.o                  50
+    asin.o                     246
+    sqrt.o                     240
+    xatan.o                    480
+    ---------------------------------------------------------
+    Total:                   4 084
+
+rt7M_tl.a: [5]
+    ABImemclr.o                  6
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                 94
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    iarEdom.o                   12
+    zero_init3.o                34
+    ---------------------------------------------------------
+    Total:                     364
+
+    Gaps                        34                          4
+    Linker created               8                19
+-------------------------------------------------------------
+    Grand Total:            28 612       60    8 204    9 465
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff1ff8           --   Gb  - Linker created -
+.bss$$Limit             0x1fff2944           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff1fbc           --   Gb  - Linker created -
+.data_init$$Base        0x00002ac8           --   Gb  - Linker created -
+.data_init$$Limit       0x00004674           --   Gb  - Linker created -
+.iar.init_table$$Base   0x00008f78           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00008f88           --   Gb  - Linker created -
+?main                   0x00008f89          Code  Gb  cmain.o [5]
+Acc_Z                   0x1fff0bd8     0x2  Data  Gb  main.o [1]
+Angle_All_Control       0x00006b5d    0x28  Code  Gb  Car_Control.o [1]
+Angle_Car_Now           0x1fff04e4     0x4  Data  Gb  Car_Control.o [1]
+Angle_Car_Now_2         0x1fff04e8     0x4  Data  Gb  Car_Control.o [1]
+Angle_Error             0x1fff0460     0x4  Data  Gb  Car_Control.o [1]
+Angle_In_Loop_Control   0x00006a6d    0xf0  Code  Gb  Car_Control.o [1]
+Angle_Out_Loop_Control  0x000069d1    0x9c  Code  Gb  Car_Control.o [1]
+Angle_Speed_Error       0x1fff0464     0x4  Data  Gb  Car_Control.o [1]
+Angle_Speed_Error_Error
+                        0x1fff0470     0x4  Data  Gb  Car_Control.o [1]
+Angle_Speed_Error_Last  0x1fff0474     0x4  Data  Gb  Car_Control.o [1]
+Angle_Speed_Expect      0x1fff0468     0x4  Data  Gb  Car_Control.o [1]
+Angle_Speed_Index       0x1fff041c     0x2  Data  Gb  Car_Control.o [1]
+Angle_Speed_Integral    0x1fff046c     0x4  Data  Gb  Car_Control.o [1]
+Angle_Speed_Integral_Start_Mark
+                        0x1fff041a     0x2  Data  Gb  Car_Control.o [1]
+Angle_Speed_Integral_Start_Time
+                        0x1fff0418     0x2  Data  Gb  Car_Control.o [1]
+Angle_Standard          0x1fff0484     0x4  Data  Gb  Car_Control.o [1]
+Balance_Filter          0x00006891    0xfa  Code  Gb  Car_Control.o [1]
+Block_Flag              0x1fff05d8     0x2  Data  Gb  get_midline.o [1]
+Block_Jump_Flag         0x1fff05f0     0x2  Data  Gb  get_midline.o [1]
+Block_Left              0x1fff05d4     0x2  Data  Gb  get_midline.o [1]
+Block_Left_Down_i       0x1fff05e8     0x2  Data  Gb  get_midline.o [1]
+Block_Left_Down_j       0x1fff05ea     0x2  Data  Gb  get_midline.o [1]
+Block_Left_Up_i         0x1fff05e4     0x2  Data  Gb  get_midline.o [1]
+Block_Left_Up_j         0x1fff05e6     0x2  Data  Gb  get_midline.o [1]
+Block_Right             0x1fff05d6     0x2  Data  Gb  get_midline.o [1]
+Block_Right_Down_i      0x1fff05de     0x2  Data  Gb  get_midline.o [1]
+Block_Right_Down_j      0x1fff05e0     0x2  Data  Gb  get_midline.o [1]
+Block_Right_Up_i        0x1fff05da     0x2  Data  Gb  get_midline.o [1]
+Block_Right_Up_j        0x1fff05dc     0x2  Data  Gb  get_midline.o [1]
+Brick_Jump_Point        0x1fff05f2     0x2  Data  Gb  get_midline.o [1]
+Change_Line_Wide        0x1fff0ad0    0xf0  Data  Gb  get_midline.o [1]
+Change_Point            0x1fff0616     0x2  Data  Gb  get_midline.o [1]
+CodeRelocate$$Base      0x00008f14           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00008f50           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1fbc           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1ff8           --   Gb  - Linker created -
+DIP_Number              0x1fff0422     0x2  Data  Gb  Car_Control.o [1]
+DIP_status              0x00007081    0x74  Code  Gb  Car_Control.o [1]
+DL_Cross_Road_Flag      0x1fff05f4     0x2  Data  Gb  get_midline.o [1]
+DMA0_IRQHandler         0x00008aa9     0x4  Code  Gb  main.o [1]
+DR_Cross_Road_Flag      0x1fff05f6     0x2  Data  Gb  get_midline.o [1]
+D_Angle                 0x1fff04d0     0x4  Data  Gb  Car_Control.o [1]
+D_Angle_Speed           0x1fff0440     0x4  Data  Gb  Car_Control.o [1]
+D_Direction_Control     0x1fff0588     0x4  Data  Gb  Car_Control.o [1]
+D_Direction_Control_now
+                        0x1fff0450     0x4  Data  Gb  Car_Control.o [1]
+Data_Send               0x00007841    0x80  Code  Gb  Serial_oscilloscope.o [1]
+Depart                  0x1fff0bd1     0x1  Data  Gb  main.o [1]
+Dir_Loop_Control        0x00006e93     0xe  Code  Gb  Car_Control.o [1]
+Dir_Loop_Output         0x00006ea1    0xbe  Code  Gb  Car_Control.o [1]
+Dir_Speed_Fuzzy         0x1fff2007     0x1  Data  Gb  fuzzy.o [1]
+Dir_detal               0x1fff0bdc     0x4  Data  Gb  main.o [1]
+Direction_Control_Out   0x1fff0458     0x4  Data  Gb  Car_Control.o [1]
+Direction_Control_Out_Last
+                        0x1fff045c     0x4  Data  Gb  Car_Control.o [1]
+Direction_Detal_Caculate
+                        0x00002019    0x98  Code  Gb  get_midline.o [1]
+DisplayFloat            0x00006049   0x11e  Code  Gb  VCAN_LCD.o [1]
+Draw_Midline            0x00001d55    0x3a  Code  Gb  get_midline.o [1]
+E                       0x1fff2008     0x4  Data  Gb  fuzzy.o [1]
+EC                      0x1fff200c     0x4  Data  Gb  fuzzy.o [1]
+EC_Rank                 0x1fff2005     0x1  Data  Gb  fuzzy.o [1]
+E_Rank                  0x1fff2004     0x1  Data  Gb  fuzzy.o [1]
+E_Speed                 0x1fff2010     0x4  Data  Gb  fuzzy.o [1]
+E_Speed_Rank            0x1fff2006     0x1  Data  Gb  fuzzy.o [1]
+Error                   0x1fff0618    0x78  Data  Gb  get_midline.o [1]
+F14x16                  0x00006530   0x118  Data  Gb  VCAN_LCD.o [1]
+F14x16_Idx              0x00006514    0x1c  Data  Gb  VCAN_LCD.o [1]
+F6x8                    0x000062ec   0x228  Data  Gb  VCAN_LCD.o [1]
+FTMN                    0x1fff1ea4     0xc  Data  Gb  MK60_ftm.o [1]
+FTM_port_mux            0x00007c61    0xac  Code  Lc  MK60_ftm.o [1]
+Finish_Check            0x000020b9    0xe6  Code  Gb  get_midline.o [1]
+Fuck_Up_Mark            0x1fff0612     0x2  Data  Gb  get_midline.o [1]
+Fuck_Up_Mark_Time       0x1fff0614     0x2  Data  Gb  get_midline.o [1]
+Fuzzy_Apply             0x00007f09    0xe8  Code  Gb  fuzzy.o [1]
+GPIOX                   0x1fff1ebc    0x14  Data  Gb  MK60_gpio.o [1]
+Get_Acc_And_Gyro        0x00006825    0x38  Code  Gb  Car_Control.o [1]
+Get_Middle_Line         0x00000419  0x1916  Code  Gb  get_midline.o [1]
+Get_Speed               0x0000698b    0x46  Code  Gb  Car_Control.o [1]
+Gravity_Angle_Error     0x1fff04d4     0x4  Data  Gb  Car_Control.o [1]
+Gravity_Angle_I         0x1fff04e0     0x4  Data  Gb  Car_Control.o [1]
+Gravity_Angle_Index     0x1fff049e     0x2  Data  Gb  Car_Control.o [1]
+Gravity_Angle_Integral  0x1fff04d8     0x4  Data  Gb  Car_Control.o [1]
+Gravity_Angle_Integral_Start_Mark
+                        0x1fff049c     0x2  Data  Gb  Car_Control.o [1]
+Gravity_Angle_Integral_Start_Time
+                        0x1fff049a     0x2  Data  Gb  Car_Control.o [1]
+Gyro_Test               0x1fff0498     0x2  Data  Gb  Car_Control.o [1]
+Gyro_X                  0x1fff2942     0x2  Data  Gb  main.o [1]
+Gyro_Z                  0x1fff0bd6     0x2  Data  Gb  main.o [1]
+High_Road_Flag          0x1fff0416     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Left          0x1fff0410     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Left_i        0x1fff0412     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Left_j        0x1fff0413     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Right         0x1fff0411     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Right_i       0x1fff0414     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Right_j       0x1fff0415     0x1  Data  Gb  Car_Control.o [1]
+High_Road_Time          0x1fff0417     0x1  Data  Gb  Car_Control.o [1]
+I2CN                    0x1fff1ed0     0x8  Data  Gb  MK60_i2c.o [1]
+IIC_Read_Acc            0x000077bf    0x34  Code  Gb  8700_2100.o [1]
+IIC_Read_Gyro           0x00007761    0x5e  Code  Gb  8700_2100.o [1]
+I_Angle                 0x1fff04cc     0x4  Data  Gb  Car_Control.o [1]
+I_Angle_Speed           0x1fff043c     0x4  Data  Gb  Car_Control.o [1]
+Img_Printf_OLED         0x00005cc7   0x18c  Code  Gb  VCAN_LCD.o [1]
+Init2100                0x00007725    0x26  Code  Gb  8700_2100.o [1]
+Init8700                0x0000774b    0x16  Code  Gb  8700_2100.o [1]
+Jump_Change_Point_Count
+                        0x1fff08ca     0x2  Data  Gb  get_midline.o [1]
+Key_Init                0x00004675    0x76  Code  Gb  Key.o [1]
+LB_Lose                 0x1fff2094    0xf0  Data  Gb  get_midline.o [1]
+LB_Lose_Begin           0x1fff0594     0x2  Data  Gb  get_midline.o [1]
+LB_Lose_Count           0x1fff0590     0x2  Data  Gb  get_midline.o [1]
+LB_Lose_Count_Last      0x1fff05a0     0x2  Data  Gb  get_midline.o [1]
+LB_Lose_End             0x1fff0596     0x2  Data  Gb  get_midline.o [1]
+LCD_CLS                 0x00005b99    0x2e  Code  Gb  VCAN_LCD.o [1]
+LCD_Fill                0x00005b69    0x30  Code  Gb  VCAN_LCD.o [1]
+LCD_Init                0x00005bc7   0x100  Code  Gb  VCAN_LCD.o [1]
+LCD_P14x16Str           0x00005edd   0x11c  Code  Gb  VCAN_LCD.o [1]
+LCD_P6x8Str             0x00005e5d    0x80  Code  Gb  VCAN_LCD.o [1]
+LCD_Print               0x00005ff9    0x50  Code  Gb  VCAN_LCD.o [1]
+LCD_PrintU16            0x000061c9   0x11c  Code  Gb  VCAN_LCD.o [1]
+LCD_WrCmd               0x00005b31    0x38  Code  Gb  VCAN_LCD.o [1]
+LCD_WrDat               0x00005af9    0x38  Code  Gb  VCAN_LCD.o [1]
+LD                      0x1fff05b4     0x2  Data  Gb  get_midline.o [1]
+LDI                     0x1fff08a0     0x2  Data  Gb  get_midline.o [1]
+LDJ                     0x1fff08a2     0x2  Data  Gb  get_midline.o [1]
+LD_Flag                 0x1fff08bc     0x2  Data  Gb  get_midline.o [1]
+LU                      0x1fff05b0     0x2  Data  Gb  get_midline.o [1]
+LUI                     0x1fff08a4     0x2  Data  Gb  get_midline.o [1]
+LUJ                     0x1fff08a6     0x2  Data  Gb  get_midline.o [1]
+Left_And_Right_Lose_Continue
+                        0x1fff0610     0x2  Data  Gb  get_midline.o [1]
+Left_Black              0x1fff2274    0xf0  Data  Gb  get_midline.o [1]
+Left_Black_B            0x1fff08d4     0x4  Data  Gb  get_midline.o [1]
+Left_Black_K            0x1fff08d0     0x4  Data  Gb  get_midline.o [1]
+Left_Black_Lose         0x1fff058c     0x2  Data  Gb  get_midline.o [1]
+Left_Black_Old          0x1fff0690     0x4  Data  Gb  get_midline.o [1]
+Left_Black_fiveteen_lose
+                        0x1fff05aa     0x2  Data  Gb  get_midline.o [1]
+Left_Black_fourtyfive_lose
+                        0x1fff089e     0x2  Data  Gb  get_midline.o [1]
+Left_Black_sixty_lose   0x1fff089a     0x2  Data  Gb  get_midline.o [1]
+Left_Black_thrity_lose  0x1fff05a6     0x2  Data  Gb  get_midline.o [1]
+Left_Black_zero_lose    0x1fff05ae     0x2  Data  Gb  get_midline.o [1]
+Left_Board_Max          0x1fff069c     0x4  Data  Gb  get_midline.o [1]
+Left_Board_Min          0x1fff0698     0x4  Data  Gb  get_midline.o [1]
+Left_Many_Lose          0x1fff05f8     0x2  Data  Gb  get_midline.o [1]
+Left_Motor              0x1fff04ec     0x4  Data  Gb  Car_Control.o [1]
+Left_Motor_Last         0x1fff04f4     0x4  Data  Gb  Car_Control.o [1]
+Left_and_Right_Lose_count
+                        0x1fff059c     0x2  Data  Gb  get_midline.o [1]
+Left_and_Right_Lose_count_Last
+                        0x1fff059e     0x2  Data  Gb  get_midline.o [1]
+Live_Watch_Mark         0x1fff0bd2     0x1  Data  Gb  main.o [1]
+ML_Black_Spot_count     0x1fff05fe     0x2  Data  Gb  get_midline.o [1]
+Mid_Left_Black          0x1fff05ec     0x2  Data  Gb  get_midline.o [1]
+Mid_Line                0x1fff2014    0x78  Data  Gb  get_midline.o [1]
+Mid_Right_Black         0x1fff05e2     0x2  Data  Gb  get_midline.o [1]
+MotorOutput             0x00006f5f    0x96  Code  Gb  Car_Control.o [1]
+Motor_Left_Out          0x1fff1ffc     0x4  Data  Gb  Car_Control.o [1]
+Motor_Right_Out         0x1fff2000     0x4  Data  Gb  Car_Control.o [1]
+Number_0                0x1fff0424     0x2  Data  Gb  Car_Control.o [1]
+Number_1                0x1fff0426     0x2  Data  Gb  Car_Control.o [1]
+Number_2                0x1fff0428     0x2  Data  Gb  Car_Control.o [1]
+Number_3                0x1fff042a     0x2  Data  Gb  Car_Control.o [1]
+Number_4                0x1fff042c     0x2  Data  Gb  Car_Control.o [1]
+Number_5                0x1fff042e     0x2  Data  Gb  Car_Control.o [1]
+Number_6                0x1fff0430     0x2  Data  Gb  Car_Control.o [1]
+Number_7                0x1fff0432     0x2  Data  Gb  Car_Control.o [1]
+OLED_Angle_ID           0x00004fd5    0x20  Code  Gb  Key.o [1]
+OLED_Angle_ID_SHOW      0x00004c69    0x96  Code  Gb  Key.o [1]
+OLED_Angle_II           0x00004fc1    0x14  Code  Gb  Key.o [1]
+OLED_Angle_II_SHOW      0x00004bd3    0x96  Code  Gb  Key.o [1]
+OLED_Angle_IO_PID       0x00004ecb     0x8  Code  Gb  Key.o [1]
+OLED_Angle_IP           0x00004ed3     0x6  Code  Gb  Key.o [1]
+OLED_Angle_IP_SHOW      0x00004b0d    0xc6  Code  Gb  Key.o [1]
+OLED_Angle_OD           0x00005059    0x44  Code  Gb  Key.o [1]
+OLED_Angle_OD_SHOW      0x00004e35    0x96  Code  Gb  Key.o [1]
+OLED_Angle_OI           0x00005021    0x38  Code  Gb  Key.o [1]
+OLED_Angle_OI_SHOW      0x00004d9f    0x96  Code  Gb  Key.o [1]
+OLED_Angle_OP           0x00004ff5    0x2c  Code  Gb  Key.o [1]
+OLED_Angle_OP_SHOW      0x00004d09    0x96  Code  Gb  Key.o [1]
+OLED_Direction_D        0x0000588d    0x12  Code  Gb  Key.o [1]
+OLED_Direction_D_SHOW   0x000056c9    0xbc  Code  Gb  Key.o [1]
+OLED_Direction_Live_Watch
+                        0x0000589f    0x1c  Code  Gb  Key.o [1]
+OLED_Direction_Live_Watch_Show
+                        0x000057a1    0x6a  Code  Gb  Key.o [1]
+OLED_Direction_P        0x00005821     0x6  Code  Gb  Key.o [1]
+OLED_Direction_PID      0x0000580b     0x6  Code  Gb  Key.o [1]
+OLED_Direction_P_SHOW   0x00005631    0x86  Code  Gb  Key.o [1]
+OLED_Speed_D            0x000054dd    0x9a  Code  Gb  Key.o [1]
+OLED_Speed_D_SHOW       0x000051c1    0x92  Code  Gb  Key.o [1]
+OLED_Speed_I            0x00005439    0x9a  Code  Gb  Key.o [1]
+OLED_Speed_I_SHOW       0x0000512f    0x92  Code  Gb  Key.o [1]
+OLED_Speed_P            0x00005399    0x9a  Code  Gb  Key.o [1]
+OLED_Speed_PID          0x000052f9    0x98  Code  Gb  Key.o [1]
+OLED_Speed_P_SHOW       0x0000509d    0x92  Code  Gb  Key.o [1]
+OLED_Speed_Set          0x00005589    0x9a  Code  Gb  Key.o [1]
+OLED_Speed_Set_SHOW     0x00005253    0x9c  Code  Gb  Key.o [1]
+O_Black_Flag            0x1fff0604     0x2  Data  Gb  get_midline.o [1]
+O_Get_O_Flag            0x1fff08c2     0x2  Data  Gb  get_midline.o [1]
+O_LDI                   0x1fff08b0     0x2  Data  Gb  get_midline.o [1]
+O_LDJ                   0x1fff08b2     0x2  Data  Gb  get_midline.o [1]
+O_Left_Line_B           0x1fff08e4     0x4  Data  Gb  get_midline.o [1]
+O_Left_Line_K           0x1fff08e0     0x4  Data  Gb  get_midline.o [1]
+O_Left_Point_Flag       0x1fff0600     0x2  Data  Gb  get_midline.o [1]
+O_OI                    0x1fff08b8     0x2  Data  Gb  get_midline.o [1]
+O_OJ                    0x1fff08ba     0x2  Data  Gb  get_midline.o [1]
+O_O_Left_I              0x1fff05bc     0x2  Data  Gb  get_midline.o [1]
+O_O_Left_J              0x1fff05be     0x2  Data  Gb  get_midline.o [1]
+O_O_Right_I             0x1fff05c0     0x2  Data  Gb  get_midline.o [1]
+O_O_Right_J             0x1fff05c2     0x2  Data  Gb  get_midline.o [1]
+O_O_Road                0x00001d9d   0x27c  Code  Gb  get_midline.o [1]
+O_RDI                   0x1fff08b4     0x2  Data  Gb  get_midline.o [1]
+O_RDJ                   0x1fff08b6     0x2  Data  Gb  get_midline.o [1]
+O_Right_Line_B          0x1fff08ec     0x4  Data  Gb  get_midline.o [1]
+O_Right_Line_K          0x1fff08e8     0x4  Data  Gb  get_midline.o [1]
+O_Right_Point_Flag      0x1fff0602     0x2  Data  Gb  get_midline.o [1]
+O_Road_Flag             0x1fff08c0     0x2  Data  Gb  get_midline.o [1]
+O_Road_Gothrough        0x1fff08c8     0x2  Data  Gb  get_midline.o [1]
+O_Road_Num              0x1fff08c4     0x2  Data  Gb  get_midline.o [1]
+O_Road_Num_Delay        0x1fff08c6     0x2  Data  Gb  get_midline.o [1]
+PIT0_IRQHandler         0x000088a5    0xaa  Code  Gb  main.o [1]
+PORTA_IRQHandler        0x00008951   0x156  Code  Gb  main.o [1]
+PORTX                   0x1fff1f20    0x14  Data  Gb  MK60_port.o [1]
+P_Angle                 0x1fff04c8     0x4  Data  Gb  Car_Control.o [1]
+P_Angle_Speed_Init      0x1fff0434     0x4  Data  Gb  Car_Control.o [1]
+P_Angle_Speed_Now       0x1fff0438     0x4  Data  Gb  Car_Control.o [1]
+P_Direction_Control     0x1fff0584     0x4  Data  Gb  Car_Control.o [1]
+P_Direction_Control_now
+                        0x1fff044c     0x4  Data  Gb  Car_Control.o [1]
+Pass_Hole_On_Flag       0x1fff060c     0x2  Data  Gb  get_midline.o [1]
+Pass_Time               0x1fff060a     0x2  Data  Gb  get_midline.o [1]
+Pause                   0x00008271     0xe  Code  Gb  MK60_i2c.o [1]
+Picture_detal           0x1fff2904     0x4  Data  Gb  main.o [1]
+Picture_detal_Old       0x1fff2908     0x4  Data  Gb  main.o [1]
+Picture_detal_detal     0x1fff0be0     0x4  Data  Gb  main.o [1]
+RB_Lose                 0x1fff2184    0xf0  Data  Gb  get_midline.o [1]
+RB_Lose_Begin           0x1fff0598     0x2  Data  Gb  get_midline.o [1]
+RB_Lose_Count           0x1fff0592     0x2  Data  Gb  get_midline.o [1]
+RB_Lose_Count_Last      0x1fff05a2     0x2  Data  Gb  get_midline.o [1]
+RB_Lose_End             0x1fff059a     0x2  Data  Gb  get_midline.o [1]
+RD                      0x1fff05b6     0x2  Data  Gb  get_midline.o [1]
+RDI                     0x1fff08a8     0x2  Data  Gb  get_midline.o [1]
+RDJ                     0x1fff08aa     0x2  Data  Gb  get_midline.o [1]
+RD_Flag                 0x1fff08be     0x2  Data  Gb  get_midline.o [1]
+RU                      0x1fff05b2     0x2  Data  Gb  get_midline.o [1]
+RUI                     0x1fff08ac     0x2  Data  Gb  get_midline.o [1]
+RUJ                     0x1fff08ae     0x2  Data  Gb  get_midline.o [1]
+Region$$Table$$Base     0x00008f78           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00008f88           --   Gb  - Linker created -
+Remedy_Left_Line        0x1fff08f0    0xf0  Data  Gb  get_midline.o [1]
+Remedy_Left_T_Line      0x1fff06b8    0xf0  Data  Gb  get_midline.o [1]
+Remedy_Right_Line       0x1fff09e0    0xf0  Data  Gb  get_midline.o [1]
+Remedy_Right_T_Line     0x1fff07a8    0xf0  Data  Gb  get_midline.o [1]
+Reset_Handler           0x00000411          Code  Gb  startup_MK60DZ10.o [1]
+Right_Black             0x1fff2364    0xf0  Data  Gb  get_midline.o [1]
+Right_Black_B           0x1fff08dc     0x4  Data  Gb  get_midline.o [1]
+Right_Black_K           0x1fff08d8     0x4  Data  Gb  get_midline.o [1]
+Right_Black_Lose        0x1fff058e     0x2  Data  Gb  get_midline.o [1]
+Right_Black_Old         0x1fff0694     0x4  Data  Gb  get_midline.o [1]
+Right_Black_fiveteen_lose
+                        0x1fff05a8     0x2  Data  Gb  get_midline.o [1]
+Right_Black_fourtyfive_lose
+                        0x1fff089c     0x2  Data  Gb  get_midline.o [1]
+Right_Black_sixty_lose  0x1fff0898     0x2  Data  Gb  get_midline.o [1]
+Right_Black_thrity_lose
+                        0x1fff05a4     0x2  Data  Gb  get_midline.o [1]
+Right_Black_zero_lose   0x1fff05ac     0x2  Data  Gb  get_midline.o [1]
+Right_Board_Max         0x1fff06a4     0x4  Data  Gb  get_midline.o [1]
+Right_Board_Min         0x1fff06a0     0x4  Data  Gb  get_midline.o [1]
+Right_Many_Lose         0x1fff05fa     0x2  Data  Gb  get_midline.o [1]
+Right_Motor             0x1fff04f0     0x4  Data  Gb  Car_Control.o [1]
+Right_Motor_Last        0x1fff04f8     0x4  Data  Gb  Car_Control.o [1]
+Right_No_Continue       0x1fff05ee     0x2  Data  Gb  get_midline.o [1]
+Road_Kind               0x1fff0606     0x2  Data  Gb  get_midline.o [1]
+Road_Kind_Last          0x1fff0608     0x2  Data  Gb  get_midline.o [1]
+Road_Kind_Mark          0x1fff060e     0x2  Data  Gb  get_midline.o [1]
+SCCB_GPIO_init          0x000071d1    0x2a  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x00007427    0x20  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x00007447   0x1ac  Code  Lc  VCAN_SCCB.o [1]
+SCCB_SendByte           0x00007329    0x5a  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Start              0x000071fb    0x6a  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Stop               0x00007265    0x64  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WaitAck            0x000072c9    0x60  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x00007383    0xa4  Code  Gb  VCAN_SCCB.o [1]
+Send_Data_Up            0x0000685d    0x34  Code  Gb  Car_Control.o [1]
+SetMotorVoltage         0x00006ff5    0x84  Code  Gb  Car_Control.o [1]
+Speed_Left              0x1fff0528     0x4  Data  Gb  Car_Control.o [1]
+Speed_Left_Last         0x1fff0534     0x4  Data  Gb  Car_Control.o [1]
+Speed_Left_Max          0x1fff0538     0x4  Data  Gb  Car_Control.o [1]
+Speed_Loop_Control      0x00006b85   0x2b0  Code  Gb  Car_Control.o [1]
+Speed_Loop_Output       0x00006e35    0x5e  Code  Gb  Car_Control.o [1]
+Speed_Output_Count      0x1fff04fc     0x2  Data  Gb  Car_Control.o [1]
+Speed_Right             0x1fff052c     0x4  Data  Gb  Car_Control.o [1]
+Speed_Right_Last        0x1fff0530     0x4  Data  Gb  Car_Control.o [1]
+Stand_Speed             0x1fff0454     0x4  Data  Gb  Car_Control.o [1]
+Stand_Speed_Out_Out     0x1fff04dc     0x4  Data  Gb  Car_Control.o [1]
+Stand_Speed_Part_In     0x1fff0480     0x4  Data  Gb  Car_Control.o [1]
+Stand_Speed_Part_In_Now
+                        0x1fff0478     0x4  Data  Gb  Car_Control.o [1]
+Stand_Speed_Part_In_Old
+                        0x1fff047c     0x4  Data  Gb  Car_Control.o [1]
+Stop_Car                0x1fff0420     0x2  Data  Gb  Car_Control.o [1]
+Stop_Check_Begin_Count  0x1fff04fe     0x2  Data  Gb  Car_Control.o [1]
+Stright_Ten_Road_Flag   0x1fff05fc     0x2  Data  Gb  get_midline.o [1]
+System_Init             0x00008aad    0xbe  Code  Gb  main.o [1]
+TBL                     0x1fff06ac     0x4  Data  Gb  get_midline.o [1]
+TBR                     0x1fff06b4     0x4  Data  Gb  get_midline.o [1]
+TKL                     0x1fff06a8     0x4  Data  Gb  get_midline.o [1]
+TKR                     0x1fff06b0     0x4  Data  Gb  get_midline.o [1]
+TLDI                    0x1fff05c4     0x2  Data  Gb  get_midline.o [1]
+TLDJ                    0x1fff05c6     0x2  Data  Gb  get_midline.o [1]
+TLUI                    0x1fff05cc     0x2  Data  Gb  get_midline.o [1]
+TLUJ                    0x1fff05ce     0x2  Data  Gb  get_midline.o [1]
+TRDI                    0x1fff05c8     0x2  Data  Gb  get_midline.o [1]
+TRDJ                    0x1fff05ca     0x2  Data  Gb  get_midline.o [1]
+TRUI                    0x1fff05d0     0x2  Data  Gb  get_midline.o [1]
+TRUJ                    0x1fff05d2     0x2  Data  Gb  get_midline.o [1]
+Time_Count              0x1fff041e     0x2  Data  Gb  Car_Control.o [1]
+UARTN                   0x1fff1f34    0x18  Data  Gb  MK60_uart.o [1]
+Zebra_Mark              0x1fff08cc     0x2  Data  Gb  get_midline.o [1]
+Zebra_Mark_Rea_Timer    0x1fff2940     0x2  Data  Gb  get_midline.o [1]
+Zebra_Mark_Time         0x1fff08ce     0x2  Data  Gb  get_midline.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_cdcmple         0x000078f1          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x000078c1          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x00007eed          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x00007e81          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x00007ea5          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x00002715          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x000077f5          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0000262d          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x00007921          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x000027a5          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00002949          Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x00008741     0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x000025c1          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x00002481          Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x00007ec9          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x000023fd          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x000024c5          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0000223d          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x00002315          Code  Gb  FltSub.o [4]
+__aeabi_i2f             0x000021e9          Code  Gb  I32ToFlt.o [4]
+__aeabi_memclr          0x000071c9          Code  Gb  ABImemclr.o [5]
+__aeabi_ui2d            0x00002611          Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x000021fd          Code  Gb  I32ToFlt.o [4]
+__cmain                 0x00008f89          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410           --   Gb  command line/config [2]
+__exit                  0x00008fb5          Code  Gb  XXexit.o [5]
+__iar_Atan              0x00008561   0x148  Code  Gb  xatan.o [4]
+__iar_Errno             0x1fff2944     0x4  Data  Gb  errno.o [3]
+__iar_Memset_word       0x00007ff1          Code  Gb  ABImemset.o [5]
+__iar_d2uiz             0x00007821          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x00002641          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x00008f51    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x000087d1     0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x0000295d          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0000296f          Code  Gb  DblSub.o [4]
+__iar_edom              0x000087c5          Code  Gb  iarEdom.o [5]
+__iar_fadd              0x0000240d          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x00002325          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x00002335          Code  Gb  FltSub.o [4]
+__iar_program_start     0x00008fc1          Code  Gb  cstartup_M.o [5]
+__iar_sqrt              0x00008469          Code  Gb  sqrt.o [4]
+__iar_ui2d              0x00002615          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x00002201          Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0000874d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000876d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000876d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0000221b    0x22  Code  Gb  zero_init3.o [5]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00008f95          Code  Gb  cmain.o [5]
+_exit                   0x00008fa9          Code  Gb  cexit.o [5]
+_main                   0x00008f9f          Code  Gb  cmain.o [5]
+a                       0x00008700    0x40  Data  Lc  xatan.o [4]
+asin                    0x00007b69    0xf0  Code  Gb  asin.o [4]
+bit16_data16            0x1fff2914     0x8  Data  Gb  main.o [1]
+bit8_data               0x1fff290c     0x8  Data  Gb  main.o [1]
+bus_clk_khz             0x1fff293c     0x4  Data  Gb  system_MK60DZ10.o [1]
+common_startup          0x00008e6f    0x48  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff2934     0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff2938     0x4  Data  Gb  system_MK60DZ10.o [1]
+default_isr             0x00008559     0x2  Code  Gb  MK60_conf.o [1]
+dma_portx2buff_init     0x00007639    0xec  Code  Gb  MK60_dma.o [1]
+exit                    0x00008fa3     0x4  Code  Gb  exit.o [3]
+fDL                     0x1fff0518     0x4  Data  Gb  Car_Control.o [1]
+fDR                     0x1fff051c     0x4  Data  Gb  Car_Control.o [1]
+fDeltaValue             0x1fff04a8     0x8  Data  Gb  Car_Control.o [1]
+fGyroscopeAngleIntegral
+                        0x1fff04a0     0x8  Data  Gb  Car_Control.o [1]
+fIL                     0x1fff0520     0x4  Data  Gb  Car_Control.o [1]
+fIR                     0x1fff0524     0x4  Data  Gb  Car_Control.o [1]
+fLeft                   0x1fff0444     0x4  Data  Gb  Car_Control.o [1]
+fLeftVal                0x1fff292c     0x4  Data  Gb  main.o [1]
+fPL                     0x1fff0510     0x4  Data  Gb  Car_Control.o [1]
+fPR                     0x1fff0514     0x4  Data  Gb  Car_Control.o [1]
+fRight                  0x1fff0448     0x4  Data  Gb  Car_Control.o [1]
+fRightVal               0x1fff2930     0x4  Data  Gb  main.o [1]
+flag                    0x1fff0bcc     0x1  Data  Gb  Key.o [1]
+ftm_mod                 0x1fff1eb0     0xc  Data  Lc  MK60_ftm.o [1]
+ftm_pwm_duty            0x00007d9b    0x38  Code  Gb  MK60_ftm.o [1]
+ftm_pwm_init            0x00007d0d    0x8e  Code  Gb  MK60_ftm.o [1]
+ftm_quad_clean          0x00007e65     0x2  Code  Gb  MK60_ftm.o [1]
+ftm_quad_get            0x00007e59     0xc  Code  Gb  MK60_ftm.o [1]
+ftm_quad_init           0x00007dd3    0x86  Code  Gb  MK60_ftm.o [1]
+g_dLeftMotorPulseSigma  0x1fff0578     0x4  Data  Gb  Car_Control.o [1]
+g_dRightMotorPulseSigma
+                        0x1fff057c     0x4  Data  Gb  Car_Control.o [1]
+g_fAngleControlOut      0x1fff0488     0x4  Data  Gb  Car_Control.o [1]
+g_fAngleControlOut_Last
+                        0x1fff048c     0x4  Data  Gb  Car_Control.o [1]
+g_fCarAngle             0x1fff04b0     0x8  Data  Gb  Car_Control.o [1]
+g_fCarSpeedSet          0x1fff050c     0x4  Data  Gb  Car_Control.o [1]
+g_fCarSpeedSet_Max      0x1fff1ff8     0x4  Data  Gb  Car_Control.o [1]
+g_fCarSpeedSet_Start    0x1fff0580     0x4  Data  Gb  Car_Control.o [1]
+g_fDirectionControlOut  0x1fff0490     0x4  Data  Gb  Car_Control.o [1]
+g_fGravityAngle         0x1fff04c0     0x8  Data  Gb  Car_Control.o [1]
+g_fGyroscopeAngleSpeed  0x1fff04b8     0x8  Data  Gb  Car_Control.o [1]
+g_fSpeedControlD        0x1fff0508     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlDeltaL   0x1fff0564     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlDeltaR   0x1fff0568     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlI        0x1fff0504     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlIntegralL
+                        0x1fff054c     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlIntegralR
+                        0x1fff0550     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutL     0x1fff056c     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutL_Max
+                        0x1fff0574     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutNewL  0x1fff0558     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutNewR  0x1fff0560     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutOldL  0x1fff0554     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutOldR  0x1fff055c     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlOutR     0x1fff0570     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedControlP        0x1fff0500     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedDeltaL          0x1fff053c     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedDeltaPreL       0x1fff0544     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedDeltaPreR       0x1fff0548     0x4  Data  Gb  Car_Control.o [1]
+g_fSpeedDeltaR          0x1fff0540     0x4  Data  Gb  Car_Control.o [1]
+gpio_get                0x00005a67    0x18  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x00005a25    0x42  Code  Gb  MK60_gpio.o [1]
+i                       0x1fff208c     0x4  Data  Gb  get_midline.o [1]
+i2c_delay               0x00008129    0x1e  Code  Gb  MK60_i2c.o [1]
+i2c_init                0x00008051    0xd8  Code  Gb  MK60_i2c.o [1]
+i2c_read_reg            0x00008147    0xb0  Code  Gb  MK60_i2c.o [1]
+i2c_write_reg           0x000081f7    0x6a  Code  Gb  MK60_i2c.o [1]
+iMax                    0x1fff05b8     0x2  Data  Gb  get_midline.o [1]
+iMin                    0x1fff05ba     0x2  Data  Gb  get_midline.o [1]
+ii                      0x1fff0bd4     0x2  Data  Gb  main.o [1]
+img                     0x1fff0be4  0x12c0  Data  Gb  main.o [1]
+img_extract             0x000067a9    0x76  Code  Gb  VCAN_camera.o [1]
+imgbuff                 0x1fff2454   0x258  Data  Gb  main.o [1]
+imgbuff_trans           0x1fff26ac   0x258  Data  Gb  main.o [1]
+j                       0x1fff2090     0x4  Data  Gb  get_midline.o [1]
+key_time_count          0x1fff0bc4     0x4  Data  Gb  Key.o [1]
+keycount                0x1fff0bce     0x2  Data  Gb  Key.o [1]
+keycurrent              0x1fff0bcd     0x1  Data  Gb  Key.o [1]
+keypress                0x1fff0bc1     0x1  Data  Gb  Key.o [1]
+keyvalue                0x1fff0bc0     0x1  Data  Gb  Key.o [1]
+keyzhuangtai            0x1fff0bc2     0x1  Data  Gb  Key.o [1]
+main                    0x000087d5    0xce  Code  Gb  main.o [1]
+main_scan               0x0000479d   0x252  Code  Gb  Key.o [1]
+mcg_cfg                 0x1fff1ed8    0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff1f1c     0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00008c59   0x13a  Code  Gb  MK60_mcg.o [1]
+ov7725_eagle_cfgnum     0x1fff1fb8     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x00006733    0x12  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_get_img    0x00006745    0x34  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x1fff1f50     0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fff1f4c     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x00006649    0xac  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fff1f54    0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x000066f5    0x3e  Code  Gb  VCAN_OV7725_Eagle.o [1]
+pit_init                0x00008c15    0x30  Code  Gb  MK60_PIT.o [1]
+pll_init                0x00008d93    0x7c  Code  Gb  MK60_mcg.o [1]
+port_init               0x00005a85    0x2c  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x00005ab1    0x38  Code  Gb  MK60_port.o [1]
+qipao                   0x1fff0bd0     0x1  Data  Gb  main.o [1]
+readkey                 0x000046eb    0xb2  Code  Gb  Key.o [1]
+send_data               0x1fff291c    0x10  Data  Gb  main.o [1]
+set_sys_dividers        0x1fff1fbd    0x3c  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x00008c03     0x8  Code  Gb  misc.o [1]
+sqrt                    0x00008469          Code  Gb  sqrt.o [4]
+sqrtl                   0x00008469          Code  Gb  sqrt.o [4]
+start                   0x00008e1d    0x1e  Code  Gb  system_MK60DZ10.o [1]
+sysinit                 0x00008e3b    0x34  Code  Gb  system_MK60DZ10.o [1]
+systick_delay_ms        0x00007605    0x2a  Code  Gb  MK60_SysTick.o [1]
+uart_init               0x00008301   0x148  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x00008449    0x10  Code  Gb  MK60_uart.o [1]
+wdog_disable            0x00008ee9    0x26  Code  Gb  MK60_wdog.o [1]
+windows                 0x000049ef    0x96  Code  Gb  Key.o [1]
+write_vtor              0x00008bfd     0x6  Code  Gb  misc.o [1]
+
+
+[1] = F:\斯达迪\freescale\【验证及调试】\“暗湧六號D”\Dark_River\Prj\IAR\DZ10_Release\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  28 612 bytes of readonly  code memory
+      60 bytes of readwrite code memory
+   8 204 bytes of readonly  data memory
+   9 465 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
